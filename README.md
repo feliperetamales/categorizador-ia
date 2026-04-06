@@ -4,7 +4,7 @@
 Frontend: `React + Vite` 
 Backend: `Node.js + Express`
 IA de asistencia: Codex con modelo GPT-5.4.
-Deploy:
+Deploy: Render
 
 ## Flujo general
 La idea es:
@@ -170,6 +170,10 @@ El modelo ya no se define en `.env`: ahora se elige desde el navbar del panel en
 Regla actual del procesamiento:
 - `GPT-5.4 mini`: usa pausa entre solicitudes para evitar rate limit.
 - `GPT-5.4 nano`: procesa sin pausa entre solicitudes.
+
+En el navbar del panel aparece una ayuda corta para recordarlo:
+- `Nano`: mas rapido.
+- `Mini`: mas estable para extraer, pero puede pegar rate limit y por eso usa pausa.
 
 1. Instala dependencias:
 

@@ -115,6 +115,18 @@ select {
   justify-content: center;
 }
 
+.navbar__ayuda-modelo {
+  width: 100%;
+  margin: 0;
+  color: var(--texto-suave);
+  font-size: 0.72rem;
+  text-align: center;
+}
+
+.navbar__ayuda-modelo strong {
+  color: var(--texto);
+}
+
 .navbar__chip {
   display: grid;
   gap: 1px;
@@ -1094,6 +1106,10 @@ select {
   .navbar__estado,
   .navbar__acciones {
     justify-content: flex-start;
+  }
+
+  .navbar__ayuda-modelo {
+    text-align: left;
   }
 
   .barra-filtros {

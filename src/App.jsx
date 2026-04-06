@@ -183,6 +183,9 @@ export default function App() {
         </div>
 
         <div className="navbar__estado">
+          <p className="navbar__ayuda-modelo">
+            <strong>Nano:</strong> Más rapido. <strong>Mini:</strong> Tiene rate limit, por eso usa pausa entre solicitudes.
+          </p>
           <article className="navbar__chip">
             <span>Reuniones categorizadas</span>
             <strong>
@@ -211,6 +214,7 @@ export default function App() {
             <span>Última actualización</span>
             <strong>{ultimaActualizacionTexto}</strong>
           </article>
+
         </div>
 
         <div className="navbar__acciones">
