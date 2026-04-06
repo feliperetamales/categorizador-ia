@@ -165,8 +165,6 @@ OPENAI_API_KEY=tu_clave
 ```
 Estas son las variables para conectar con la API de OpenAI y configurar los puertos del frontend y backend.
 
-El modelo ya no se define en `.env`: ahora se elige desde el navbar del panel entre `GPT-5.4 mini` y `GPT-5.4 nano`.
-
 Regla actual del procesamiento:
 - `GPT-5.4 mini`: usa pausa entre solicitudes para evitar rate limit.
 - `GPT-5.4 nano`: procesa sin pausa entre solicitudes.
@@ -215,4 +213,4 @@ http://localhost:3000
 
 
 ## PD:
-Se utiliza un temporizador de 22 segundos entre solicitudes a OpenAI para evitar problemas de rate limit, por lo cual el procesamiento completo puede ser un poco lento, al ser 60 clientes el total es 22 minutos aprox
+Se utiliza un temporizador de 22 segundos entre solicitudes con el modelo mini a OpenAI para evitar problemas de rate limit, por lo cual el procesamiento completo puede ser un poco lento, al ser 60 clientes el total es 22 minutos aprox
