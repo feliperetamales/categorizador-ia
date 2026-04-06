@@ -209,7 +209,7 @@ select {
 
 .barra-filtros {
   position: sticky;
-  top: 58px;
+  top: 84px;
   z-index: 20;
   padding: 10px 18px 0;
   background:
