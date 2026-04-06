@@ -208,7 +208,7 @@ http://localhost:3000
 
 - Use React y express debido a que los uso en mi día a día
 - Use OpenAI a pesar de no tener una opción gratis porque es lo que conocía y fue más simple de integrar
-- Se deployó estáticamente para simplificar ya que es gratis
+- Use Render para deploy porque es simple y tiene free tier
 - Se usó cache local en lugar de una DB real para evitar complejidad de infraestructura
 
 
