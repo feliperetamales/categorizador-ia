@@ -1,0 +1,26 @@
+{
+  "name": "vambe-panel-clientes",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:servidor\" \"npm run dev:cliente\"",
+    "dev:cliente": "vite",
+    "dev:servidor": "node --watch servidor/index.js --desarrollo",
+    "build": "vite build",
+    "start": "node servidor/index.js"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "openai": "^4.104.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "concurrently": "^9.2.1",
+    "vite": "^5.4.19"
+  }
+}
