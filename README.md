@@ -1,4 +1,4 @@
-# Panel de clientes Vambe AI
+# Categorizador AI
 
 ## Arquitectura
 Frontend: `React + Vite` 
